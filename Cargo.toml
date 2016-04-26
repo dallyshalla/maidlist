@@ -1,0 +1,13 @@
+[package]
+name = "maidlist"
+version = "0.1.0"
+authors = ["ex <dallyshalla@gmail.com>"]
+
+
+[[bin]]
+name = "main"
+path = "examples/run.rs"
+
+[dependencies]
+hyper = "*"
+rustc-serialize = "*"
